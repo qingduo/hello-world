@@ -11,7 +11,7 @@ from six.moves.urllib.request import urlretrieve
 from six.moves import cPickle as pickle
 import random
 
-def show_pic(data_root):
+def show_pics(data_root):
     os.chdir(data_root)
     for dir_item in os.listdir(data_root):
         if os.path.isdir(dir_item):
@@ -25,5 +25,5 @@ def show_pic(data_root):
 
 data_1 = '/Users/kingdom/tensorflow/udacity/notMNIST_large'
 data_2 = '/Users/kingdom/tensorflow/udacity/notMNIST_small'
-show_pic(data_1)
-show_pic(data_2)
+show_pics(data_1)
+show_pics(data_2)
