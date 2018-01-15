@@ -10,7 +10,7 @@ from sklearn.linear_model import LogisticRegression
 from six.moves.urllib.request import urlretrieve
 from six.moves import cPickle as pickle
 import random
-import scipy    
+import scipy
 
 def show_pics(data_root):
     os.chdir(data_root)
